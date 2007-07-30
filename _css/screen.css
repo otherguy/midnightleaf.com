@@ -1,0 +1,306 @@
+/* Screen, Projection CSS for midnightleaf.com */
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #404040 url(../_img/bg.jpg) repeat-x top center;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	color: #ffffff;
+}
+
+#header, #publications, #about, #products, #login {
+	width: 600px;
+	margin: 25px auto;
+	padding: 0;
+	overflow: hidden;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+#publications h2, #about h2, #products h2, #login h2 {
+	width: 600px;
+	margin: 25px auto;
+	padding: 0;
+	overflow: hidden;
+	font: 24px Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+#publications a, #about a, #footer a, #products a {
+	font-weight: normal;
+	font-style: normal;
+	color: #9ead59;
+	text-decoration: none;
+}
+
+#publications a:hover, #about a:hover, #footer a:hover, #products a:hover {
+	color: #a6a53e;
+	border-bottom: 1px dotted #9ead59;
+	text-decoration: none;
+}
+
+#header {
+	height: 319px;
+	background: #404040 url(../_img/header.jpg) no-repeat top left;
+	text-indent: -999px;
+}
+
+#header * {
+	font: 1px sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div div.boxcontainer {
+	background: #2a2a2a;
+	color: #ffffff;
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 50px;
+	border-radius: 12px;
+}
+
+#about {
+	background: #404040 url(../_img/new_left.gif) no-repeat top left;
+}
+
+#about abbr {
+	text-decoration: none;
+	border: 0 none;
+}
+
+#about h2 {
+	display: block;
+	width: 100px;
+	height: 25px;
+	color: #2a2a2a;
+	font: 1px sans-serif;
+	text-indent: -999px;
+	background: #2a2a2a url(../_img/aboutus.gif) no-repeat top left;
+}
+
+#about div.boxcontainer {
+	background: #2a2a2a url(../_img/new_right.gif) no-repeat top left;
+	border-radius: 0 12px 12px;
+}
+
+#about p {
+	text-align: justify;
+	font: 16px/1.1 Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #fafafa;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+
+#products h2 {
+	display: block;
+	width: 100px;
+	height: 25px;
+	color: #2a2a2a;
+	font: 1px sans-serif;
+	text-indent: -999px;
+	background: #2a2a2a url(../_img/products.gif) no-repeat top left;
+}
+
+#products p {
+	text-align: justify;
+	font: 16px/1.1 Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #fafafa;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+#products ol {
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#products ol li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font: 1px sans-serif;
+	overflow: hidden;
+	display: block;
+	text-indent: -999px;
+}
+
+#products ol li a {
+	display: block;
+	text-indent: -999px;
+}
+
+#products ol li.innsbrucker {
+	width: 172px;
+	height: 186px;
+}
+
+#products ol li a.innsbrucker {
+	width: 172px;
+	height: 186px;
+	background: url(../_img/innsbrucker.gif);
+}
+
+#publications h2 {
+	display: block;
+	width: 125px;
+	height: 25px;
+	color: #2a2a2a;
+	font: 1px sans-serif;
+	text-indent: -999px;
+	background: #2a2a2a url(../_img/publications.gif) no-repeat top left;
+}
+
+#publications p {
+	text-align: justify;
+	font: 16px/1.1 Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #fafafa;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+#publications dl {
+	width: 400px;
+	margin: 20px 0 10px 0;
+	padding: 0;
+	border-bottom: 1px solid #999;
+	overflow: hidden;
+}
+
+#publications dl dt {
+	width: 120px;
+	float: left;
+	margin: 0 0 0 0;
+	padding: .5em 0 ;
+	border-top: 1px solid #999;
+	font-weight: bold;
+}
+
+/* commented backslash hack for mac-ie5 \*/
+#publications dt { clear: both; }
+/* end hack */
+
+#publications dd {
+	float: left;
+	width: 280px;
+	margin: 0;
+	padding: .5em 0;
+	border-top: 1px solid #999;
+}
+
+#login h2 {
+	display: block;
+	width: 125px;
+	height: 25px;
+	color: #2a2a2a;
+	font: 1px sans-serif;
+	text-indent: -999px;
+	background: #2a2a2a url(../_img/clientlogin.gif) no-repeat top left;
+}
+
+#login p {
+	text-align: justify;
+	font: 16px/1.1 Helvetica, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #fafafa;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+#login form {
+	margin: 10px 0 20px 0;
+	width: 400px;
+}
+
+#login dl {
+	width: 380px;
+	margin: 20px 0 10px 20px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#login dl dt {
+	width: 120px;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0.5em 0;
+}
+
+#login dl dt label {
+	padding: 4px;
+	display: block;
+}
+
+
+/* commented backslash hack for mac-ie5 \*/
+#login dt { clear: both; }
+/* end hack */
+
+#login dd {
+	float: left;
+	width: 230px;
+	margin: 0;
+	padding: .5em 0;
+}
+
+#login dd input {
+	border: 1px solid #4A4A4A;
+	background: #3A3A3A;
+	padding: 3px;
+	color: #CDCDCD;
+	font: 14px Verdana, Arial, sans-serif;
+	vertical-align: baseline; 
+	width: 230px;
+}
+
+#login input#sSubmit {
+	float: right;
+	margin-right: 21px;
+}
+
+#footer {
+	width: 500px;
+	margin: 5px auto;
+	padding: 25px 0 10px 0;
+	overflow: hidden;
+	font: 11px Helvetica, Verdana, Arial, sans-serif;
+	text-align: right;
+	color: #353535;
+	background: url(../_img/bar.gif) no-repeat top left;
+}
+
+#footer p {
+	margin: 0;
+	font: 11px Helvetica, Verdana, Arial, sans-serif;
+	text-align: right;
+	color: #303030;
+	padding: 5px 0 0 0;
+}
+
+#footer a {
+	color: #252525;
+	text-decoration: none;
+	border: 0 none;
+}
+
+#footer a:hover, #footer a:focus, #footer a:active {
+	color: #202020;
+	text-decoration: none;
+	border-bottom: 1px dotted #202020;
+}
